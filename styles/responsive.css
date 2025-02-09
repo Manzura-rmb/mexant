@@ -1,0 +1,271 @@
+
+
+/*-------------------------- Responsive ---------------------------*/
+
+
+@media only screen and (min-width: 576px) {
+    .container {
+        width: 540px;
+    }
+
+    .nav img{
+        padding: 12px 0;
+    }  
+
+    .main-header h2{
+        font-size: 56px;
+        font-weight: 700;
+        padding-bottom: 2.5rem;
+    }
+
+    .main-nav .div-left h4 {
+        font-size: 36px;
+    }
+
+    /*---- Partners-section ----*/
+    .partners-section .container {
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .partners-section .container>div {
+        flex: 25%;
+    }
+}
+
+
+@media only screen and (min-width: 767px) {
+    .container {
+        width: 720px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) {
+    .container {
+        width: 960px;
+    }
+
+    /*---- Partners-section ----*/
+    .partners-section .container {
+        column-gap: 30px;
+        flex-wrap: nowrap;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .nav img{
+        max-width: 160px;
+    }
+
+    .main-header h2{
+        font-size: 40px;
+        font-weight: 700;
+        padding-bottom: 2.5rem;
+    }
+
+    .main-nav .div-left h4 {
+        font-size: 20px;
+    }
+
+    /*---- About-us-section ----*/
+    .div-left>div {
+        flex-wrap: wrap;
+    }
+
+    td,
+    th {
+        padding: 15px 0;
+    }
+
+    table {
+        font-size: 13px;
+    }
+
+    /*---- Partners-section ----*/
+    .partners-section .container {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .partners-section .container>div {
+        flex: 30%;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+
+    /*---- Header-nav-sectio------*/
+    .nav ul {
+        display: none;
+    }
+
+    .nav .container {
+        position: relative;
+    }
+
+    .nav i {
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        z-index: 11;
+    }
+
+    .main-header {
+        text-align: center;
+    }
+
+    .main-header p {
+        display: none;
+    }
+
+    .main-header .buttons {
+        padding-top: 40px;
+    }
+
+    .empty-box {
+        display: inline-block;
+    }
+
+    /*---- main-nav-section ----*/
+    .main-nav .buttons {
+        padding-top: 40px;
+    }
+
+    .buttons{
+        justify-content: center;
+    }
+
+    /*---- Opinion-section ----*/
+    .opinion-section .container>div {
+        width: 516px;
+    }
+
+    .opinion img {
+        max-width: 100px;
+        height: auto;
+        top: 35px;
+        right: 50px;
+    }
+
+    .opinion {
+        padding: 35px 50px;
+    }
+
+    .opinion p {
+        padding-top: 60px;
+    }
+}
+
+
+@media only screen and (max-width: 992px) {
+
+    /*---- Header-nav-sectio------*/
+    .nav {
+        padding: 20px 0 10px;
+    }
+
+    .nav ul li:last-child {
+        display: none;
+    }
+
+    .main-header {
+        padding-top: 120px;
+        width: 100%;
+    }
+
+    /*---- marketing-section-----*/
+    .marketing .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*---- main-nav-section ----*/
+    .main-nav .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /*---- About-us-section ----*/
+    .main-about-section {
+        grid-template-columns: 100%;
+    }
+
+    .div-right {
+        padding: 60px 12px;
+    }
+
+    /*---- Your-freedom-sect--------*/
+    .div-img {
+        display: none;
+    }
+
+    /*---- About-us-section ----*/
+
+    .li-item {
+        padding: 5px 10px;
+    }
+
+    .li-item>div {
+        column-gap: 15px;
+    }
+
+    .li-item button {
+        font-size: 15px;
+    }
+
+    form>div:first-child {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    /*---- Opinion-section ----*/
+    .opinion-section .container>div {
+        width: 696px;
+    }
+
+    .opinion img {
+        width: 200px;
+        height: auto;
+        right: 50px;
+        top: 35px;
+    }
+}
+
+
+@media only screen and (max-width: 1200px) {
+
+    /*---- Header-nav-sectio------*/
+    .nav ul li {
+        padding-left: 20px;
+    }
+
+    .nav {
+        padding: 18px 0;
+    }
+
+    .nav img {
+        width: 250px;
+    }
+
+    /*---- Opinion-section ----*/
+    .opinion-section .container>div {
+        width: 776px;
+    }
+}
+
+
+@media only screen and (min-width: 1200px) {
+    .container {
+        width: 1200px;
+    }
+}
